@@ -91,7 +91,7 @@ class LoginFragment : Fragment(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         when (v!!.id) {
-            R.id.btn_login -> navController!!.navigate(R.id.action_loginFragment_to_homeFragment)
+            R.id.btn_login -> navController!!.navigate(R.id.action_loginFragment_to_mainFragment)
             R.id.btn_register -> navController!!.navigate(R.id.action_loginFragment_to_registerFragment)
         }
 

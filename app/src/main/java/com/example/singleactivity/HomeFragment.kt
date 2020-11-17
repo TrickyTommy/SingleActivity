@@ -12,7 +12,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class HomeFragment : Fragment() {
 
-    var navController: NavController? = null
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -23,24 +22,5 @@ class HomeFragment : Fragment() {
 
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        BottomNavigationView.OnNavigationItemSelectedListener { item ->
-            when(item.itemId) {
-                R.id.navigation_home -> {
-                    // Respond to navigation item 1 click
-                    true
-                }
-                R.id.navigation_list -> {
-                    // Respond to navigation item 2 click
-                    true
-                }
-                R.id.navigation_profile -> {
-                    navController!!.navigate(R.id.action_homeFragment_to_profileFragment)
-                    true
-                }
-                else -> false
-            }
-        }
-    }
+
 }
