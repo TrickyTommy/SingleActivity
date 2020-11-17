@@ -31,7 +31,7 @@ class HomeFragment : Fragment() {
                     // Respond to navigation item 1 click
                     true
                 }
-                R.id.item2 -> {
+                R.id.navigation_dua -> {
                     // Respond to navigation item 2 click
                     true
                 }
