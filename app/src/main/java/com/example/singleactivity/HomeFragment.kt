@@ -27,11 +27,15 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         BottomNavigationView.OnNavigationItemSelectedListener { item ->
             when(item.itemId) {
-                R.id.navigation_satu -> {
+                R.id.navigation_home -> {
                     // Respond to navigation item 1 click
                     true
                 }
-                R.id.navigation_dua -> {
+                R.id.navigation_list -> {
+                    // Respond to navigation item 2 click
+                    true
+                }
+                R.id.navigation_profile -> {
                     // Respond to navigation item 2 click
                     true
                 }

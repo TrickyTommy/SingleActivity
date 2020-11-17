@@ -2,13 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_satu"
-        android:icon="@android:drawable/ic_menu_call"
-        android:title="Satu" />
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="Home" />
 
     <item
-        android:id="@+id/navigation_dua"
-        android:icon="@android:drawable/ic_menu_search"
-        android:title="Dua" />
+        android:id="@+id/navigation_list"
+        android:icon="@drawable/ic_baseline_list"
+        android:title="List" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_baseline_profile"
+        android:title="Profile" />
 
 </menu>
